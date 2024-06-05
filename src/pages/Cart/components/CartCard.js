@@ -28,7 +28,7 @@ export const CartCard = ({ product }) => {
 
         </div>
         {console.log({ cartList })}
-        <button onClick={() => handleClick(product)} className="text-sm font-medium text-red-400 truncate mx-4">Remove</button>
+        <button onClick={() => handleClick(product)} className="text-sm font-medium text-red-400 truncate mx-4">Borrar</button>
 
         <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
           ${product.price}
